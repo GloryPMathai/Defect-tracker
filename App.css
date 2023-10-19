@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  border:#282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.tracker{
+  border-style: solid;
+  border-width:1px;
+  border-color:#282c34;
+  height:880px;
+  width:1025px;
+  margin-left:108px;
+  margin-top:25px;
+  margin-bottom:25px;
+  padding: 27px 27px 27px 27px;
+  position:relative;
+  z-index:1;
+}
+
+#filter{
+  border-style: solid;
+  border-width:1px;
+  height: 210px;
+  width:850px;
+  margin-left:65px;
+  border-color:#282c34;
+  position: relative;
+  z-index: 2;
+}
+p.search{
+  color: #ff0000;
+}
+
+#defect{
+  color:blue;
+}
+
+a{
+  margin-right:10px;
+}
+.DefectsTable{
+  align-items: center;
+}
+#searchColor{
+  color:red;
+}
+#tableHeading{
+  background-color:rgb(106, 187, 214);
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+td{
+  background-color: #ebe6e6db !important;
+}
